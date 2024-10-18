@@ -1,5 +1,5 @@
 {
-  "name": "ps-currency-converter",
+  "name": "ls-currency-converter",
   "version": "1.0.0",
   "description": "An NPM package to convert currency",
   "main": "index.js",
