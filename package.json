@@ -1,5 +1,5 @@
 {
-  "name": "@pratik/currency-converter",
+  "name": "ps-currency-converter",
   "version": "1.0.0",
   "description": "An NPM package to convert currency",
   "main": "index.js",
