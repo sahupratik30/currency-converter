@@ -1,0 +1,28 @@
+{
+  "name": "@pratik/currency-converter",
+  "version": "1.0.0",
+  "description": "An NPM package to convert currency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahupratik30/currency-converter.git"
+  },
+  "keywords": [
+    "currency",
+    "npm",
+    "converter"
+  ],
+  "author": "Pratik Sahu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahupratik30/currency-converter/issues"
+  },
+  "homepage": "https://github.com/sahupratik30/currency-converter#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
