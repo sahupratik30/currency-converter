@@ -4,8 +4,11 @@ const freecurrencyapi = new Freecurrencyapi(
   "fca_live_jN97yT2lDQbBznqgJOWaeTfhAi4lNdF3titcyKIb"
 );
 
-export function convertCurrency(from, to, units) {
-  return new Promise((resolve, reject) => {
+// recieve options to convert currency
+export function convertCurrency(options) {
+  let { from, to, units } = options;
+
+  return new Promise((resolve) => {
     freecurrencyapi
       .latest({
         base_currency: from,
